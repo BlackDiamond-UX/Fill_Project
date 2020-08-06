@@ -102,9 +102,9 @@ $data = mysqli_fetch_array($runquery);
                 <ul>
                     <li class=""><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
                     <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-                    <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
                     <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
                     <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+                    <li><a href="http://localhost/iportfolio/admin"><i class="bx bx-lock"></i> <span>Login</span></a></li>
 
                 </ul>
             </nav><!-- .nav-menu -->
@@ -201,58 +201,6 @@ while($data3=mysqli_fetch_array($runquery3)){
 
             </div>
         </section><!-- End Skills Section -->
-
-        <!-- ======= Resume Section ======= -->
-        <section id="resume" class="resume">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>Resume</h2>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-6" data-aos="fade-up">
-                        <h3 class="resume-title">Education</h3>
-                        <?php
-                    $query4 = "SELECT * FROM resume WHERE category='e'";
-$runquery4= mysqli_query($db,$query4);
-while($data4=mysqli_fetch_array($runquery4)){
-    ?>
-                    <div class="resume-item">
-                            <h4><?=$data4['title']?></h4>
-                            <h5><?=$data4['year']?></h5>
-                            <p><em><?=$data4['ogname']?></em></p>
-                            <p><?=$data4['workdesc']?></p>
-                        </div>
-                                <?php
-}
-                    ?>
-                        
-                        
-                        
-                    </div>
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="resume-title">Professional Experience</h3>
-                        
-                        <?php
-                    $query4 = "SELECT * FROM resume WHERE category='pe'";
-$runquery4= mysqli_query($db,$query4);
-while($data4=mysqli_fetch_array($runquery4)){
-    ?>
-                    <div class="resume-item">
-                            <h4><?=$data4['title']?></h4>
-                            <h5><?=$data4['year']?></h5>
-                            <p><em><?=$data4['ogname']?></em></p>
-                            <p><?=$data4['workdesc']?></p>
-                        </div>
-                                <?php
-}
-                    ?>
-                    </div>
-                </div>
-
-            </div>
-        </section><!-- End Resume Section -->
 
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio section-bg">
