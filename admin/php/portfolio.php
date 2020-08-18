@@ -28,14 +28,14 @@
   
    <div class="form-group col-md-6 mt-auto">
       <label for="name">Project Name</label>
-      <input type="name" name="projectname" class="form-control" id="name" placeholder="ToDo List Maker">
+      <input type="name" name="projectname" class="form-control" id="name" placeholder="Name of Project">
     </div>
     
    
     
     <div class="form-group col-md-12">
       <label for="email">Project Link</label>
-      <input type="text" name="projectlink" class="form-control" id="email" placeholder="https://whomonugiri.github.io/todo-list-maker/">
+      <input type="text" name="projectlink" class="form-control" id="email" placeholder="Link to Project">
     </div>
     <div class="form-group col-md-2 ml-auto">
         <input type="submit" name="addtoportfolio" class="btn btn-primary" value="Add To Portfolio">
