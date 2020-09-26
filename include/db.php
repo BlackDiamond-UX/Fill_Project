@@ -1,5 +1,5 @@
 <?php
-$db=mysqli_connect("localhost","root","","iportfolio");
+$db=mysqli_connect("localhost","root","","redport");
 //if($db){
 //    echo "databse is connected !";
 //}else{

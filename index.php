@@ -19,7 +19,6 @@
       <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
       <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
       <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-      <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
       <link href="assets/vendor/aos/aos.css" rel="stylesheet">
       <!-- Template Main CSS File -->
       <link href="assets/css/style.css" rel="stylesheet">
@@ -51,7 +50,8 @@
                   <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
                   <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
                   <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
-                  <li><a href="http://localhost/iportfolio/admin" target="_blank"><i class="bx bx-lock"></i> <span>Login</span></a></li>
+                  <li><a href="http://localhost/Fill_Rouge/admin" target="_blank"><i class="bx bx-lock"></i> <span>Login</span></a></li>
+                  <a href="assets\cv\Nouveau CV ROUIHA AYOUB.pdf"class="btn btn-primary">Download Cv</a>
                </ul>
             </nav>
             <!-- .nav-menu -->
@@ -63,7 +63,7 @@
       <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
          <div class="hero-container" data-aos="fade-in">
             <h1>Rouiha Ayoub</h1>
-            <p>I'm <span class="typed" data-typed-items="Developpeur Full Stack"</span></p>
+            <p>I'm <span class="typed" data-typed-items="Developpeur Full Stack"></span></p>
          </div>
       </section>
       <!-- End Hero -->
